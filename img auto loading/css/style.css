@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #00b09b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #96c93d,
+    #00b09b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #96c93d,
+    #00b09b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+img {
+  max-width: 100%;
+  max-width: 100%;
+}
+h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+article figure {
+  width: 500px;
+}
+article figcaption {
+  margin: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+article button {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #ff6347;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

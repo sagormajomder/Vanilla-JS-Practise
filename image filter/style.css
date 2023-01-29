@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+a:link {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* Custom CSS */
+h1 {
+  margin: 20px 0 10px 0;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.img-div {
+  width: max-content;
+  height: 50vh;
+  padding: 10px;
+  background-color: rgb(253, 253, 253);
+  border-radius: 8px;
+  border: 1px solid black;
+}
+.img-div img:nth-child(1) {
+  margin-bottom: 12px;
+}
+.img-div figcaption:nth-child(2) {
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  outline: none;
+  cursor: pointer;
+}
+/* for JS  */
+.blur {
+  filter: blur(5px);
+}
+.black-and-white {
+  filter: grayscale(100%);
+}
+.gradient {
+  filter: hue-rotate(90deg);
+}
+.sepia {
+  filter: sepia(100%);
+}
+/* Responsiveness */
+@media screen and (max-width: 480px) {
+  button {
+    flex: 0 0 100%;
+  }
+}
