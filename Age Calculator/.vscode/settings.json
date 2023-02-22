@@ -1,0 +1,6 @@
+{
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSameLine": true,
+  "prettier.endOfLine": "auto",
+  "prettier.singleQuote": true
+}
